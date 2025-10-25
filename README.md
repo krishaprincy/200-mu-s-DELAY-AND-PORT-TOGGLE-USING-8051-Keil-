@@ -1,4 +1,4 @@
-# 200 µs delay using Timer 0 in Mode 1 and toggle Port 0.1
+# 200 µs delay using Timer 0 in Mode 1 and Toggle Port 0.1
 
 ## AIM:
 To write and execute an Assembly language program to generate a $200 \mu s$ delay using Timer 0 in Mode 1 and toggle Port 0.1 using 8051 Keil.
