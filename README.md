@@ -1,15 +1,18 @@
 # 200 µs delay using Timer 0 in Mode 1 and Toggle Port 0.1
 
 ## AIM:
+
 To write and execute an Assembly language program to generate a $200 \mu s$ delay using Timer 0 in Mode 1 and toggle Port 0.1 using 8051 Keil.
 
 ---
-## APPARATUS REQUIRED
+## APPARATUS REQUIRED:
+
 - Personal computer with Keil software
 
 ---
 
-## ALGORITHM
+## ALGORITHM:
+
 1. **Start**
 2. **Initialize Timer:** Set TMOD to 01H (Timer 0, Mode 1: 16-bit timer)
 3. **Initialize Port:** Set the initial state of P0.1 (e.g., $\text{SETB P0.1}$).
@@ -25,6 +28,7 @@ To write and execute an Assembly language program to generate a $200 \mu s$ dela
 ---
 
 ## FLOWCHART:
+
 <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/389ae382-4a84-4ef1-90da-874967d124d6" />
 
 ---
@@ -54,6 +58,7 @@ END
 ---
 
 ## OUTPUT:
+
 <img width="1579" height="560" alt="image" src="https://github.com/user-attachments/assets/ba8ae79f-6f59-4b16-9161-70acc5716733" />
 <img width="625" height="404" alt="image" src="https://github.com/user-attachments/assets/847f3a22-432c-471b-a1cb-397a49eecb8a" />
 
